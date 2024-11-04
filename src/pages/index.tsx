@@ -13,14 +13,23 @@ import SkillsSection from "components/SkillsSection/SkillsSection";
 import Carousel from "components/Carousel/Carousel";
 import { useState, useEffect } from "react";
 import ProjectsMobile from "components/ProjectsMobile/ProjectsMobile";
+import data from "data.json"
 // import { InfinitySpin } from "react-loader-spinner";
 
 const inter = Inter({ subsets: ["latin"] });
+// export async function getStaticProps() {
+//   // Get external data from the file system, API, DB, etc.
+//   let { data }: any = await axios.get("https://sunilportfolioapi.vercel.app/");
+//   // The value of the `props` key will be
+//   //  passed to the `Home` component
+//   return {
+//     props: {
+//       data,
+//     },
+//   };
+// }
 export async function getStaticProps() {
-  // Get external data from the file system, API, DB, etc.
-  let { data }: any = await axios.get("https://sunilportfolioapi.vercel.app/");
-  // The value of the `props` key will be
-  //  passed to the `Home` component
+  // The value of the `props` key will be passed to the `Home` component
   return {
     props: {
       data,
@@ -42,7 +51,7 @@ export default function Home(props: Props) {
     
     text-white h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll z-0 sm:scrollbar-thin sm:scrollbar-thumb-[#F7AB0A]/80 sm:scrollbar-transparent sm:scrollbar-thumb-rounded-full sm:scrollbar-track-rounded-full">
       <Head>
-        <title>{`Sunil Band`}</title>
+        <title>{`Salsabila Niarno`}</title>
       </Head>
       {/* Header */}
       <Header data={props.data[5]} />

@@ -1,0 +1,104 @@
+[
+    {
+      "_id": "6432bd33fd88a2d9e3288e48",
+      "aboutText": "Hello there! I'm Sunil. I'm a B.tech Computer Engineering student who likes to make stuff and loves tinkering with the latest tech around. Checkout my work and let me know what you think .. ✌️",
+      "section": "about",
+      "aboutImage": "https://i.ibb.co/yfdy6CL/DSCF9914-e-01.png",
+      "aboutHoverImage": "https://i.ibb.co/6mQ6GmP/headshot-Png.png"
+    },
+    {
+      "_id": "6432c66de600088d794f1e91",
+      "section": "hero",
+      "typewriter": ["Hey this is Niar!","a Fullstack Developer","UI/UX and Graphic designer","Cloud Computing & AI Enthusiast"],
+      "title": "SALSABILA NIARNO",
+      "heroImage": "https://s6.gifyu.com/images/S6Pq1.png"
+    },
+    {
+      "_id": "6432c881e600088d794f1e94",
+      "section": "certifications",
+      "certData": [
+        {
+          "name": "React Native",
+          "link": "https://my.visme.co/view/x4nvrk4d-untitled-project#s1",
+          "provider": "Coursera",
+          "offeredBy": "Meta",
+          "logo": "https://img.freepik.com/free-vector/meta-logo-file-social-media-icon-vector-3-november-2021-bangkok-thailand_53876-157873.jpg",
+          "status": "Ongoing",
+          "learnPoints": ["Mobile Development", "App Development", "Cross Platform Development"]
+        },
+        {
+          "name": "Principles of UX/UI Design",
+          "link": "https://my.visme.co/view/x4nvrk4d-untitled-project#s1",
+          "provider": "Coursera",
+          "offeredBy": "Meta",
+          "logo": "https://img.freepik.com/free-vector/meta-logo-file-social-media-icon-vector-3-november-2021-bangkok-thailand_53876-157873.jpg",
+          "status": "Ongoing",
+          "learnPoints": ["UX", "UI", "Design Fundamentals"]
+        },
+        {
+          "name": "Developing Back-End Apps with Node.js and Express",
+          "link": "https://www.coursera.org/account/accomplishments/certificate/R2WGLBLNYL5X",
+          "provider": "Coursera",
+          "offeredBy": "IBM",
+          "logo": "https://www.buyalicence.com/wp-content/uploads/2019/03/ibm-logo-circular-grey.png",
+          "status": "Completed",
+          "learnPoints": ["back-end development", "Server-side JavaScript", "RESTful API"]
+        },
+        {
+          "name": "JavaScript Algorithms and Data Structures",
+          "link": "https://www.freecodecamp.org/certification/fcc11e5227f-5153-468c-9cd6-5b245694882a/javascript-algorithms-and-data-structures",
+          "provider": "FreeCodeCamp",
+          "offeredBy": "FreeCodeCamp",
+          "logo": "https://cdn.changelog.com/uploads/icons/news_sources/Qo/icon_small.png",
+          "status": "Completed",
+          "learnPoints": ["JavaScript", "Algorithms", "ES6", "Data Structures", "OOP", "Debugging"]
+        }
+      ]
+    },
+    {
+      "_id": "6432cb77e600088d794f1e96",
+      "section": "skills",
+      "skillData": [
+        {
+          "skillName": "javascript",
+          "proficiency": "80",
+          "imageLink": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "skillName": "TypeScript",
+          "proficiency": "60",
+          "imageLink": "https://i.ibb.co/V3Fw2Ft/Typescript-logo-2020-svg.png"
+        }
+      ]
+    },
+    {
+      "_id": "6432d818e600088d794f1e97",
+      "section": "projects",
+      "projectsData": [
+        {
+          "projectName": "Spiritual-GPT",
+          "projectDesc": "Spiritual GPT is an AI chatbot designed to provide spiritual guidance and knowledge. It recognizes religious and spiritual queries and generates relevant responses from various religious scriptures using OpenAI GPT-3.5-turbo.",
+          "projectImage": "https://s6.gifyu.com/images/S6Q3c.gif",
+          "projectLink": "https://spiritualgpt.sunilband.me",
+          "projectDuration": "May 2023 - July 2023"
+        },
+        {
+          "projectName": "Task Master",
+          "projectDesc": "A personalized tasks/notes management app with encrypted user data and JWT auth.",
+          "projectImage": "https://s6.gifyu.com/images/S6Qve.gif",
+          "projectLink": "https://taskmaster.sunilabnd.me",
+          "projectDuration": "Oct 2023"
+        }
+      ]
+    },
+    {
+      "_id":"6432d9f6e600088d794f1e98",
+      "section":"header",
+      "linkedin":"https://www.linkedin.com/in/salsabila-niarno",
+      "github":"https://github.com/justniar",
+      "instagram":"https://www.instagram.com/niarsalsaa/",
+      "resume":"https://drive.google.com/file/d/1r0RMQM-4UNanQsNI7Y2XFCFLBboyCQms/view?usp=sharing",
+      "whatsapp":"https://wa.me/+6285156365408"
+    }
+  ]
+  

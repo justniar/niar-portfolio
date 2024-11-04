@@ -28,7 +28,7 @@ const Header = (props: Props) => {
       >
         {/* Social icons */}
         <SocialIcon
-          url={props.data.github}
+          url={props.data?.github || ''}
           fgColor="currentColor"
           bgColor="transparent"
           className=" hover:scale-110 text-[gray] hover:text-[#F7AB0A]/70 transition ease-in-out duration-100"
@@ -36,7 +36,7 @@ const Header = (props: Props) => {
           rel="noreferrer"
         />
         <SocialIcon
-          url={props.data.linkedin}
+          url={props.data?.linkedin || ''}
           fgColor="currentColor"
           bgColor="transparent"
           className=" hover:scale-110 text-[gray] hover:text-[#F7AB0A]/70 transition ease-in-out duration-100"
@@ -44,7 +44,7 @@ const Header = (props: Props) => {
           rel="noreferrer"
         />
         <SocialIcon
-          url={props.data.whatsapp}
+          url={props.data?.whatsapp || ''}
           network="whatsapp"
           fgColor="currentColor"
           bgColor="transparent"
@@ -52,14 +52,14 @@ const Header = (props: Props) => {
           target="_blank"
           rel="noreferrer"
         />
-        {/* <SocialIcon
-          url={props.data.instagram}
+        <SocialIcon
+          url={props.data?.instagram || ''}
           fgColor="currentColor"
           bgColor="transparent"
           className=" hover:scale-110 text-[gray] hover:text-[#F7AB0A]/70 transition ease-in-out duration-100"
           target="_blank"
           rel="noreferrer"
-        /> */}
+        />
       </motion.div>
 
       <motion.div
