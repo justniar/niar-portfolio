@@ -26,7 +26,6 @@ const About = (props: Props) => {
   }
 
   return (
-    // test
     <div className="w-screen h-screen ">
       <div className="flex flex-col relative h-screen text-center md:text-left md:flex-row  px-10 justify-center gap-20 mx-auto items-center z-20 ">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
@@ -75,7 +74,6 @@ const About = (props: Props) => {
                 
               />
 
-              {/* hover image */}
               <Image
                 src={props.data.aboutHoverImage}
                 width={2464}
@@ -90,7 +88,6 @@ const About = (props: Props) => {
         </motion.div>
 
         <div className={`space-y-6 px-0 md:px-3 flex items-center`}>
-          {/* <h4 className="text-2xl font-semibold text-[#F7AB0A] sm:text-4xl xl:mt-20">{`Here's Something `}</h4> */}
           <motion.p
             initial={{
               x: 100,
@@ -104,7 +101,6 @@ const About = (props: Props) => {
             }}
             className="text-justify text-sm font-bold  antialiased sm:text-base sm:font-normal md:max-w-xl md:text-base  md:leading-7 xl:text-xl  xl:leading-8 pb-4 sm:mt-32 relative"
           >
-            {/* upper quote */}
             <Image
               src={quote}
               alt="open quote"
@@ -113,7 +109,6 @@ const About = (props: Props) => {
               className="absolute top-[-60px] left-[-10px] fill-inherit"
               priority
             />
-            {/* lower quote */}
             <Image
               src={quote}
               alt="open quote"
