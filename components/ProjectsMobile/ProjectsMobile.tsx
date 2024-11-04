@@ -46,7 +46,7 @@ const ProjectsMobile = (props: Props) => {
           modules={[EffectCards]}
           loop={true}
         
-          className="mySwiper w-[320px] h-[550px] mt-24"
+          className="mySwiper w-[320px] h-[500px] mt-24"
         >
           {props.data.projectsData.map((item: any, key: any) => {
             return (

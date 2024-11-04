@@ -113,21 +113,21 @@
         },
         {
           "projectName": "Website Desa Waled Asem",
-          "projectDesc": "The Desa Waled Asem Website project was created as part of a student community service program by Universitas Muhammadiyah Cirebon. This website serves as a digital platform to showcase Desa Waled Asem’s local culture, services, and community updates. It aims to provide residents and visitors with easy access to village news, essential information, and public services, supporting the village's progress through improved connectivity and information sharing.",
+          "projectDesc": "The Desa Waled Asem Website project was created as part of a student community service program by Universitas Muhammadiyah Cirebon.",
           "projectImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730731459/kkm_2_z0xsim.png",
           "projectLink": "https://github.com/justniar/web_waledasem",
           "projectDuration": "August 2023- September 2023"
         },
         {
           "projectName": "Ayo Pintar-Smart Quiz Platform",
-          "projectDesc": "This application utilizes machine learning technology to match student answers with data on the answers to questions and predict which professions are suitable for students so they can develop. This application is expected to be useful to expedite the learning process.",
+          "projectDesc": "This application utilizes machine learning technology to match student answers with data on the answers to questions and predict which professions are suitable for students so they can develop.",
           "projectImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730731131/Ayo_Pintar-01_lk6ogo.png",
           "projectLink": "https://github.com/capstone-bangkit-2023",
           "projectDuration": "June 2023- July 2023"
         },
         {
           "projectName": "Website Fungsi.id",
-          "projectDesc": "Fungsi is an organization that brings together students from universities across Indonesia. It serves as a platform for students to connect, collaborate, and develop their skills through various programs, events, and initiatives. By fostering a supportive community, *Fungsi* empowers its members to grow personally and professionally, promoting the exchange of knowledge and ideas among students from diverse academic backgrounds.",
+          "projectDesc": "Fungsi is an organization that brings together students from universities across Indonesia. It serves as a platform for students to connect, collaborate, and develop their skills through various programs, events, and initiatives.",
           "projectImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730731942/fungsi.id_qtu8he.jpg",
           "projectLink": "https://justniar.github.io/fungsi/",
           "projectDuration": "January 2021- January 2022"
