@@ -18,10 +18,10 @@ const ContactMe = (props: Props) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "portfolio",
-        "template_0xdiby9",
+        "service_2lmho3l", // Service ID
+        "template_0xdiby9", // Template ID
         form.current,
-        "LJ2tmRAE4H8BfsKr4",
+        "nRfi_u560p4G_2I27",
       )
       .then(
         (result) => {
@@ -49,25 +49,15 @@ const ContactMe = (props: Props) => {
       </h3>
 
       <div className="flex flex-col space-y-10 mt-28 ">
-        <h4 className="text-2xl md:text-4xl font-semibold text-center cursor-default">
-          I got just what you need.{" "}
-          <span className="text-[#F7AB0A] cursor-default">Lets Talk</span>
-        </h4>
-
         <div className="space-y-3 ">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+918390685016</p>
-          </div>
-
-          <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Pune</p>
+            <p className="text-2xl">Cirebon, indonesia</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">sunilbandwork@gmail.com</p>
+            <p className="text-2xl">salsabilaniarno@gmail.com</p>
           </div>
         </div>
 

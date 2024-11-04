@@ -98,18 +98,18 @@
       "section": "projects",
       "projectsData": [
         {
-          "projectName": "Spiritual-GPT",
-          "projectDesc": "Spiritual GPT is an AI chatbot designed to provide spiritual guidance and knowledge. It recognizes religious and spiritual queries and generates relevant responses from various religious scriptures using OpenAI GPT-3.5-turbo.",
-          "projectImage": "https://s6.gifyu.com/images/S6Q3c.gif",
-          "projectLink": "https://spiritualgpt.sunilband.me",
-          "projectDuration": "May 2023 - July 2023"
+          "projectName": "Landing Page Bimbel Bumi Cerdas",
+          "projectDesc": "Bimbel Bumi Cerdas is an educational institution that provides tutoring services with an interactive and enjoyable approach.",
+          "projectImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730730209/Frame_1_mgpyrf.png",
+          "projectLink": "https://website-bbc.vercel.app/",
+          "projectDuration": "August 2024 - September 2024"
         },
         {
-          "projectName": "Task Master",
-          "projectDesc": "A personalized tasks/notes management app with encrypted user data and JWT auth.",
-          "projectImage": "https://s6.gifyu.com/images/S6Qve.gif",
-          "projectLink": "https://taskmaster.sunilabnd.me",
-          "projectDuration": "Oct 2023"
+          "projectName": "Intelligent Decision Support System For IoT-Based Education: Automated Classroom Monitoring And Control At Highschool",
+          "projectDesc": "This research develops an intelligent decision-making system based on IoT to automatically monitor and control the learning process in the classroom.",
+          "projectImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730730532/flow_1-01_gtgzzz.png",
+          "projectLink": "https://github.com/justniar/Final-Project-Class-Enggangement",
+          "projectDuration": "June 2024- August 2024"
         }
       ]
     },

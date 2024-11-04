@@ -1,13 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import required modules
 import { Pagination, Navigation } from "swiper/modules";
 
 
@@ -24,7 +21,6 @@ const Projects = (props: Props) => {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm cursor-default ">
         Swipe to explore
       </h3>
-      {/* projects */}
 
       <motion.div
         initial={{
@@ -65,7 +61,7 @@ const Projects = (props: Props) => {
                       quality={100}
                     />
                     <div className="space-y-10 px-4 md:px-10 max-w-3xl text-center">
-                      <h4 className="text-4xl font-semibold tracking-wide flex flex-col cursor-default text-[#F7AB0A]/70">
+                      <h4 className="text-xl font-semibold tracking-wide flex flex-col cursor-default text-[#F7AB0A]/70">
                         {item.projectName}
                       </h4>
                       <p className="text-lg text-justify cursor-default">
@@ -79,9 +75,6 @@ const Projects = (props: Props) => {
           })}
         </Swiper>
       </motion.div>
-
-      {/* background line */}
-      {/* <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" /> */}
     </div>
   );
 };
