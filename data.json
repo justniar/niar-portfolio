@@ -60,20 +60,20 @@
       "section": "skills",
       "skillData": [
         {
+          "skillName": "Python",
+          "imageLink": "https://res.cloudinary.com/dwynanuof/image/upload/v1730728013/python-svgrepo-com_ytgbvx.svg"
+        },
+        {
           "skillName": "javascript",
           "imageLink": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
         },
         {
           "skillName": "TypeScript",
-          "imageLink": "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png"
+          "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf5OyGM494an0wFKL4bPsMKUEaafxdWda9Ug&s"
         },
         {
           "skillName": "Golang",
           "imageLink": "data:image/png;base64,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"
-        },
-        {
-          "skillName": "Python",
-          "imageLink": "https://res.cloudinary.com/dwynanuof/image/upload/v1730728013/python-svgrepo-com_ytgbvx.svg"
         },
         {
           "skillName": "SQL",
