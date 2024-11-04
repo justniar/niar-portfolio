@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
@@ -25,7 +25,7 @@ const ContactMe = (props: Props) => {
       )
       .then(
         (result) => {
-          form.current;
+          form.current.reset();
           toast.success("Thank you for contacting me! I will get back to you soon 👋");
         },
         (error) => {
@@ -43,28 +43,28 @@ const ContactMe = (props: Props) => {
   };
 
   return (
-    <div className="h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-5 sm:px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl cursor-default">
+    <div className="h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-6 sm:px-10 justify-evenly mx-auto items-center">
+      <h3 className="mt-8 sm:mt-16 tracking-[20px] text-gray-500 text-2xl cursor-default">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10 mt-28 w-full">
-        <div className="space-y-3">
+      <div className="flex flex-col space-y-8 sm:space-y-10 mt-12 sm:mt-16 w-full sm:w-auto">
+        <div className="space-y-4 sm:space-y-3">
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-lg sm:text-2xl">Cirebon, Indonesia</p>
+            <p className="text-xl sm:text-2xl">Cirebon, Indonesia</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-lg sm:text-2xl">salsabilaniarno@gmail.com</p>
+            <p className="text-xl sm:text-2xl">salsabilaniarno@gmail.com</p>
           </div>
         </div>
 
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col space-y-2 w-full max-w-md mx-auto px-4 sm:px-0"
+          className="flex flex-col space-y-2 w-full sm:w-fit mx-auto px-4"
         >
           <motion.div
             initial={{ x: -100 }}
@@ -91,6 +91,7 @@ const ContactMe = (props: Props) => {
               onClick={() => focusInput(emailInputRef)}
             />
           </motion.div>
+
           <motion.input
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -103,6 +104,7 @@ const ContactMe = (props: Props) => {
             ref={subjectInputRef}
             onClick={() => focusInput(subjectInputRef)}
           />
+
           <motion.textarea
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -114,12 +116,13 @@ const ContactMe = (props: Props) => {
             ref={messageInputRef}
             onClick={() => focusInput(messageInputRef)}
           />
+
           <motion.button
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             type="submit"
-            className="bg-[#F7AB0A] py-4 px-8 rounded-md text-black font-bold transition duration-200 ease-in-out hover:drop-shadow-[0_0px_4px_#F7AB0A]"
+            className="bg-[#F7AB0A] py-3 px-8 sm:py-5 sm:px-10 rounded-md text-black font-bold transition duration-200 ease-in-out hover:drop-shadow-[0_0px_4px_#F7AB0A]"
           >
             Submit
           </motion.button>
