@@ -10,7 +10,6 @@ type Props = {
 };
 
 function Skills(props: Props) {
-  // const [skillName,skillSet]=useState("")
   const [skillName, setSkill] = useState<string>();
 
   useEffect(() => {
@@ -60,9 +59,6 @@ function Skills(props: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl cursor-default ">
         Skills
       </h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm cursor-default ">
-        hover for proficiency
-      </h3>
       <div className="  w-[90vw] h-[60vh] md:w-[40vw] flex justify-center items-center z-20">
         <div className={`container `}>
           <ul className={`scale-[70%] md:scale-100 `}>
@@ -99,9 +95,6 @@ function Skills(props: Props) {
                       priority
                     />
                   </a>
-                  <div className="info antialiased flex justify-center items-center">
-                    <h3>{item.proficiency}</h3>
-                  </div>
                 </motion.li>
               );
             })}

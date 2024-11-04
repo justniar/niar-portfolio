@@ -1,57 +1,57 @@
 [
     {
       "_id": "6432bd33fd88a2d9e3288e48",
-      "aboutText": "Hello there! I'm Sunil. I'm a B.tech Computer Engineering student who likes to make stuff and loves tinkering with the latest tech around. Checkout my work and let me know what you think .. ✌️",
+      "aboutText": "Hello there! I'm Salsabila Niarno. I'm a Fresh Graduate of Informatics Engineering student who thrive in dynamic and challenging environments, where I can apply my problem-solving skills and adaptability to deliver high-quality results. Checkout my work and let me know what you think .. ✌️",
       "section": "about",
-      "aboutImage": "https://i.ibb.co/yfdy6CL/DSCF9914-e-01.png",
-      "aboutHoverImage": "https://i.ibb.co/6mQ6GmP/headshot-Png.png"
+      "aboutImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730725423/WhatsApp_Image_2024-06-03_at_23.11.21_ogulga.jpg",
+      "aboutHoverImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730725423/WhatsApp_Image_2024-06-03_at_23.11.21_ogulga.jpg"
     },
     {
       "_id": "6432c66de600088d794f1e91",
       "section": "hero",
       "typewriter": ["Hey this is Niar!","a Fullstack Developer","UI/UX and Graphic designer","Cloud Computing & AI Enthusiast"],
       "title": "SALSABILA NIARNO",
-      "heroImage": "https://s6.gifyu.com/images/S6Pq1.png"
+      "heroImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730725423/WhatsApp_Image_2024-06-03_at_23.11.21_ogulga.jpg"
     },
     {
       "_id": "6432c881e600088d794f1e94",
       "section": "certifications",
       "certData": [
         {
-          "name": "React Native",
-          "link": "https://my.visme.co/view/x4nvrk4d-untitled-project#s1",
-          "provider": "Coursera",
-          "offeredBy": "Meta",
+          "name": "Application Development with Cloud Run",
+          "link": "https://www.cloudskillsboost.google/public_profiles/5cd90a01-d3ee-4c19-8128-ceb7a0403658/badges/3661897?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+          "provider": "Google Cloud Skills Boost",
+          "offeredBy": "Google Cloud Skills Boost",
           "logo": "https://img.freepik.com/free-vector/meta-logo-file-social-media-icon-vector-3-november-2021-bangkok-thailand_53876-157873.jpg",
-          "status": "Ongoing",
-          "learnPoints": ["Mobile Development", "App Development", "Cross Platform Development"]
+          "status": "Completed",
+          "learnPoints": ["Cloud Computing", "App Development"]
         },
         {
-          "name": "Principles of UX/UI Design",
-          "link": "https://my.visme.co/view/x4nvrk4d-untitled-project#s1",
-          "provider": "Coursera",
-          "offeredBy": "Meta",
+          "name": "Belajar Membuat Front-End Web untuk Pemula",
+          "link": "https://www.dicoding.com/certificates/JLX1WV4QGP72",
+          "provider": "Dicoding Indonesia",
+          "offeredBy": "Dicoding Indonesia",
           "logo": "https://img.freepik.com/free-vector/meta-logo-file-social-media-icon-vector-3-november-2021-bangkok-thailand_53876-157873.jpg",
-          "status": "Ongoing",
-          "learnPoints": ["UX", "UI", "Design Fundamentals"]
+          "status": "Completed",
+          "learnPoints": ["Front-end"]
         },
         {
-          "name": "Developing Back-End Apps with Node.js and Express",
-          "link": "https://www.coursera.org/account/accomplishments/certificate/R2WGLBLNYL5X",
-          "provider": "Coursera",
-          "offeredBy": "IBM",
+          "name": "Desainer Grafis Madya",
+          "link": "TIK. 4837772023",
+          "provider": "Badan Nasional Sertifikasi Profesi (BNSP)",
+          "offeredBy": "Badan Nasional Sertifikasi Profesi (BNSP)",
           "logo": "https://www.buyalicence.com/wp-content/uploads/2019/03/ibm-logo-circular-grey.png",
           "status": "Completed",
-          "learnPoints": ["back-end development", "Server-side JavaScript", "RESTful API"]
+          "learnPoints": ["Graphic Design"]
         },
         {
-          "name": "JavaScript Algorithms and Data Structures",
-          "link": "https://www.freecodecamp.org/certification/fcc11e5227f-5153-468c-9cd6-5b245694882a/javascript-algorithms-and-data-structures",
-          "provider": "FreeCodeCamp",
-          "offeredBy": "FreeCodeCamp",
+          "name": "Automating Infrastructure on Google Cloud with Terraform",
+          "link": "https://www.cloudskillsboost.google/public_profiles/5cd90a01-d3ee-4c19-8128-ceb7a0403658/badges/3588580?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+          "provider": "Google Cloud Skills Boost",
+          "offeredBy": "Google Cloud Skills Boost",
           "logo": "https://cdn.changelog.com/uploads/icons/news_sources/Qo/icon_small.png",
           "status": "Completed",
-          "learnPoints": ["JavaScript", "Algorithms", "ES6", "Data Structures", "OOP", "Debugging"]
+          "learnPoints": ["Google Cloud"]
         }
       ]
     },
@@ -61,13 +61,35 @@
       "skillData": [
         {
           "skillName": "javascript",
-          "proficiency": "80",
           "imageLink": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
         },
         {
           "skillName": "TypeScript",
-          "proficiency": "60",
-          "imageLink": "https://i.ibb.co/V3Fw2Ft/Typescript-logo-2020-svg.png"
+          "imageLink": "https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png"
+        },
+        {
+          "skillName": "Golang",
+          "imageLink": "data:image/png;base64,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"
+        },
+        {
+          "skillName": "Python",
+          "imageLink": "https://res.cloudinary.com/dwynanuof/image/upload/v1730728013/python-svgrepo-com_ytgbvx.svg"
+        },
+        {
+          "skillName": "SQL",
+          "imageLink": "https://www.nicepng.com/png/detail/256-2566010_pl-sql-logo-png.png"
+        },
+        {
+          "skillName": "Google Cloud Platform",
+          "imageLink": "https://www.svgrepo.com/show/353805/google-cloud.svg"
+        },
+        {
+          "skillName": "Figma",
+          "imageLink": "https://www.svgrepo.com/show/452202/figma.svg"
+        },
+        {
+          "skillName": "Adobe Illustrator",
+          "imageLink": "https://www.svgrepo.com/show/452147/adobe-illustrator.svg"
         }
       ]
     },
