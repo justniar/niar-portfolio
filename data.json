@@ -1,7 +1,7 @@
 [
     {
       "_id": "6432bd33fd88a2d9e3288e48",
-      "aboutText": "Hello there! I'm Salsabila Niarno. I'm a Fresh Graduate of Informatics Engineering student who thrive in dynamic and challenging environments, where I can apply my problem-solving skills and adaptability to deliver high-quality results. Checkout my work and let me know what you think .. ✌️",
+      "aboutText": "Hello there! I'm Salsabila Niarno. I'm a Fresh Graduate of Informatics Engineering who thrive in dynamic and challenging environments, where I can apply my problem-solving skills and adaptability to deliver high-quality results. Checkout my work and let me know what you think .. ✌️",
       "section": "about",
       "aboutImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730725423/WhatsApp_Image_2024-06-03_at_23.11.21_ogulga.jpg",
       "aboutHoverImage": "https://res.cloudinary.com/dwynanuof/image/upload/v1730725423/WhatsApp_Image_2024-06-03_at_23.11.21_ogulga.jpg"
@@ -22,7 +22,7 @@
           "link": "https://www.cloudskillsboost.google/public_profiles/5cd90a01-d3ee-4c19-8128-ceb7a0403658/badges/3661897?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
           "provider": "Google Cloud Skills Boost",
           "offeredBy": "Google Cloud Skills Boost",
-          "logo": "https://img.freepik.com/free-vector/meta-logo-file-social-media-icon-vector-3-november-2021-bangkok-thailand_53876-157873.jpg",
+          "logo": "https://lh3.googleusercontent.com/cEKG3JL7_lukkLXNL2TLamElxvTR2GHYu3cjvvfMW675buyF1nY0Zq-6q2ijOb0Cv-pJP29dLkwEtQ=s600-w600",
           "status": "Completed",
           "learnPoints": ["Cloud Computing", "App Development"]
         },
@@ -31,7 +31,7 @@
           "link": "https://www.dicoding.com/certificates/JLX1WV4QGP72",
           "provider": "Dicoding Indonesia",
           "offeredBy": "Dicoding Indonesia",
-          "logo": "https://img.freepik.com/free-vector/meta-logo-file-social-media-icon-vector-3-november-2021-bangkok-thailand_53876-157873.jpg",
+          "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png",
           "status": "Completed",
           "learnPoints": ["Front-end"]
         },
@@ -40,7 +40,7 @@
           "link": "TIK. 4837772023",
           "provider": "Badan Nasional Sertifikasi Profesi (BNSP)",
           "offeredBy": "Badan Nasional Sertifikasi Profesi (BNSP)",
-          "logo": "https://www.buyalicence.com/wp-content/uploads/2019/03/ibm-logo-circular-grey.png",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFEAUBrE9OOaTMUufkTR6eSyxB6KtwTrw6EQ&s",
           "status": "Completed",
           "learnPoints": ["Graphic Design"]
         },
@@ -49,9 +49,27 @@
           "link": "https://www.cloudskillsboost.google/public_profiles/5cd90a01-d3ee-4c19-8128-ceb7a0403658/badges/3588580?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
           "provider": "Google Cloud Skills Boost",
           "offeredBy": "Google Cloud Skills Boost",
-          "logo": "https://cdn.changelog.com/uploads/icons/news_sources/Qo/icon_small.png",
+          "logo": "https://lh3.googleusercontent.com/cEKG3JL7_lukkLXNL2TLamElxvTR2GHYu3cjvvfMW675buyF1nY0Zq-6q2ijOb0Cv-pJP29dLkwEtQ=s600-w600",
           "status": "Completed",
           "learnPoints": ["Google Cloud"]
+        },
+        {
+          "name": "Belajar Dasar Pemrograman JavaScript",
+          "link": "https://www.dicoding.com/certificates/JLX1LO266X72",
+          "provider": "Dicoding Indonesia",
+          "offeredBy": "Dicoding Indonesia",
+          "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png",
+          "status": "Completed",
+          "learnPoints": ["Front-end"]
+        },
+        {
+          "name": "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud",
+          "link": "https://www.dicoding.com/certificates/JMZVNYD3RPN9",
+          "provider": "Dicoding Indonesia",
+          "offeredBy": "Dicoding Indonesia",
+          "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png",
+          "status": "Completed",
+          "learnPoints": ["Back-end"]
         }
       ]
     },
